@@ -1,0 +1,23 @@
+{
+    "name": "datingvip/ach-wts-dbs-api",
+    "type": "library",
+    "description": "WTS ACH DBS API Implementation for PHP",
+    "keywords": ["WTS","ACH","DBS","api","payment"],
+    "homepage": "https://github.com/DatingVIP/ach-wts-dbs-api",
+    "license": "LGPLv3",
+    "authors": [
+        {
+            "name": "Boldizsar Bednarik",
+            "email": "bbednarik@gmail.com",
+            "homepage": "http://firstbeatmedia.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.0.0",
+        "datingvip/curl": "dev-master"
+    },
+    "autoload": {
+        "psr-0": { "DatingVIP": "src" }
+    }
+}
