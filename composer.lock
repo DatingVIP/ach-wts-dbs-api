@@ -1,0 +1,59 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
+    ],
+    "hash": "cff2ed5afb5f7fab122abf9892a24510",
+    "packages": [
+        {
+            "name": "datingvip/curl",
+            "version": "v2.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/DatingVIP/cURL.git",
+                "reference": "86da994ad464593d7979c73bf5d734f07a9c5472"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/DatingVIP/cURL/zipball/86da994ad464593d7979c73bf5d734f07a9c5472",
+                "reference": "86da994ad464593d7979c73bf5d734f07a9c5472",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.0.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "DatingVIP": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPLv3"
+            ],
+            "authors": [
+                {
+                    "name": "Joe Watkins",
+                    "email": "joe@firstbeatmedia.com",
+                    "homepage": "http://firstbeatmedia.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Curl based HTTP Client - Simple but effective OOP wrapper around Curl php lib",
+            "homepage": "https://github.com/DatingVIP/cURL",
+            "keywords": [
+                "curl"
+            ],
+            "time": "2014-06-19 12:15:33"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "platform": {
+        "php": ">=5.0.0"
+    },
+    "platform-dev": []
+}
