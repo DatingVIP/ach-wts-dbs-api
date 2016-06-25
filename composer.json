@@ -15,7 +15,7 @@
     ],
     "require": {
         "php": ">=5.0.0",
-        "datingvip/curl": "2.0.3"
+        "datingvip/curl": "^2.0"
     },
     "autoload": {
         "psr-0": { "DatingVIP": "src" }

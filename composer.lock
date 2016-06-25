@@ -1,22 +1,24 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
     ],
-    "hash": "cff2ed5afb5f7fab122abf9892a24510",
+    "hash": "791193e468c1633273e118b77c7de4a0",
+    "content-hash": "06bdee9b8f38c89d47f7b561cfda5226",
     "packages": [
         {
             "name": "datingvip/curl",
-            "version": "v2.0.3",
+            "version": "v2.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/DatingVIP/cURL.git",
-                "reference": "86da994ad464593d7979c73bf5d734f07a9c5472"
+                "reference": "ebc4585916164e0c255dee795965be0514389f70"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/DatingVIP/cURL/zipball/86da994ad464593d7979c73bf5d734f07a9c5472",
-                "reference": "86da994ad464593d7979c73bf5d734f07a9c5472",
+                "url": "https://api.github.com/repos/DatingVIP/cURL/zipball/ebc4585916164e0c255dee795965be0514389f70",
+                "reference": "ebc4585916164e0c255dee795965be0514389f70",
                 "shasum": ""
             },
             "require": {
@@ -45,13 +47,15 @@
             "keywords": [
                 "curl"
             ],
-            "time": "2014-06-19 12:15:33"
+            "time": "2016-06-24 20:27:09"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
     "platform": {
         "php": ">=5.0.0"
     },
