@@ -25,8 +25,8 @@ class DbsApi
     const VALID_TOAST_IPS = '209.99.11.30|209.99.11.50|209.99.11.157|209.99.11.200|209.99.11.179';
 
     private $curl;
-    private $request;
-    private $response;
+    protected $request;
+    protected $response;
 
     /**
      * @var ParamsBase
@@ -117,7 +117,7 @@ class DbsApi
      *
      * @return bool returns false if there is a curl error
      */
-    private function sendRequest($url)
+    protected function sendRequest($url)
     {
         $this->curl = new cURL([CURLOPT_USERAGENT => self::CURL_AGENT]);
         $this->curl->setHeader('Content-Type', 'multipart/form-data;charset=UTF-8');
