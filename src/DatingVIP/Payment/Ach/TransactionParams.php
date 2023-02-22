@@ -41,6 +41,7 @@ class TransactionParams extends ParamsBase
     public $currency;
     public $username;
     public $password;
+    public $syspass;
 
     // customer
 
