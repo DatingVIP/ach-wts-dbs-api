@@ -26,4 +26,8 @@ class TransactionRefundParams extends ParamsBase
     public $order_id;
     public $initial_amount;
     public $action_code;
+
+    public $username;
+    public $password;
+    public $syspass;
 }
